@@ -105,7 +105,7 @@ Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
 
 SET SERVEROUTPUT ON;
-
+```
 DECLARE
     n NUMBER := 7;     -- Number of terms in the series
     a NUMBER := 0;     -- First term
@@ -125,7 +125,7 @@ BEGIN
         i := i + 1;
     END LOOP;
 END;
-
+```
 
 ### Output
 
@@ -148,7 +148,7 @@ Reversed number is 5351
 ### Program
 
 SET SERVEROUTPUT ON;
-
+```
 DECLARE
     n NUMBER := 1535;       -- Original number
     original NUMBER := 1535;-- To keep the original number for display
@@ -164,7 +164,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('n = ' || original);
     DBMS_OUTPUT.PUT_LINE('Reversed number is ' || reversed);
 END;
-
+```
 
 ### Output
 
@@ -186,7 +186,7 @@ Largest of three number is 15
 ### Program
 
 SET SERVEROUTPUT ON;
-
+```
 DECLARE
     a NUMBER := 10;
     b NUMBER := 9;
@@ -204,7 +204,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('a = ' || a || ', b = ' || b || ', c = ' || c);
     DBMS_OUTPUT.PUT_LINE('Largest of three number is ' || largest);
 END;
-
+```
 
 ### Output
 
@@ -213,6 +213,7 @@ END;
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
 
