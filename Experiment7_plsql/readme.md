@@ -68,7 +68,7 @@ END;
 Sum of first 10 natural numbers is: 55
 
 ### Program
-
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -83,7 +83,7 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE('Sum of first ' || n || ' natural numbers is: ' || total_sum);
 END;
-
+```
 ### output
 
 ![image](https://github.com/user-attachments/assets/5d3792b8-094e-4a7b-8b2b-6c937c6a94a1)
@@ -213,5 +213,6 @@ END;
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
