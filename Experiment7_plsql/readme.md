@@ -38,7 +38,7 @@ END;
 Greater number is: 80
 
 ### Program
-
+```
 DECLARE
     num1 NUMBER := 80;  -- First number
     num2 NUMBER := 50;  -- Second number
@@ -49,7 +49,7 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num2);
     END IF;
 END;
-
+```
 ### Output
 ![image](https://github.com/user-attachments/assets/f710e18d-069e-4a86-a30a-ab599047da90)
 
@@ -213,4 +213,5 @@ END;
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
